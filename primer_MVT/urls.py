@@ -19,5 +19,5 @@ from familiares.views import familiar
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('familiares/', familiar),
+    path('', familiar),
 ]
